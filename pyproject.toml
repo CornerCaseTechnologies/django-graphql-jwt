@@ -51,7 +51,7 @@ classifiers = [
 ]
 
 [tool.poetry.dependencies]
-python = "^3.6"
+python = "^3.8"
 
 Django = ">=2.0"
 graphene = ">=2.1.5"
