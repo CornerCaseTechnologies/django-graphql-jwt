@@ -100,4 +100,4 @@ class CSRFRotationTests(TestCase):
             lambda cls, root, info, *args, **kwargs: None,
         )(self, None, info_mock)
 
-        self.assertTrue(info_mock.context.META['CSRF_COOKIE_NEEDS_UPDATE'])
+        self.assertTrue(info_mock.context.META["CSRF_COOKIE_NEEDS_UPDATE"])
